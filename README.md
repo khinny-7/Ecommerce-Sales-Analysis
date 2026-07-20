@@ -87,14 +87,6 @@ Examples of SQL analysis included:
 * Total return value
 * Return rate
 
-Example SQL query:
-
-```sql
-SELECT 
-    ROUND(SUM(Sales), 2) AS total_revenue
-FROM clean_sales;
-```
-
 ## Power BI Data Model
 
 In Power BI, the data was organised into a star schema to improve reporting and analysis.
@@ -269,13 +261,6 @@ Based on the analysis, the following recommendations were identified:
 * The dataset does not contain customer demographics, marketing channels, product categories, or profit margins.
 * December 2011 appears to contain partial data, so monthly comparisons involving December should be interpreted carefully.
 * Some transaction codes represented non-product items such as postage, discounts, charges, or manual adjustments, which required filtering for product-level analysis.
-
-## How to Use This Project
-
-1. Open the Python notebook in the `notebooks` folder to review the data cleaning process.
-2. Open the SQL scripts in the `sql` folder to review the business analysis queries.
-3. Open the Power BI file in the `powerbi` folder to interact with the dashboard.
-4. Review the dashboard screenshots in the `dashboard_screenshots` folder for a quick preview.
 
 ## Conclusion
 
