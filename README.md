@@ -270,56 +270,6 @@ Based on the analysis, the following recommendations were identified:
 * December 2011 appears to contain partial data, so monthly comparisons involving December should be interpreted carefully.
 * Some transaction codes represented non-product items such as postage, discounts, charges, or manual adjustments, which required filtering for product-level analysis.
 
-## Project Files
-
-Suggested repository structure:
-
-```text
-ecommerce-uk-sales-analysis/
-│
-├── README.md
-│
-├── notebooks/
-│   └── ecommerce_cleaning_analysis.ipynb
-│
-├── sql/
-│   ├── create_tables.sql
-│   ├── import_data.sql
-│   └── business_questions.sql
-│
-├── powerbi/
-│   ├── ecommerce_sales_dashboard.pbix
-│   └── dashboard_screenshots/
-│       ├── sales_overview.png
-│       ├── product_performance.png
-│       ├── customer_analysis.png
-│       └── country_returns_analysis.png
-│
-├── data/
-│   └── data_description.md
-│
-└── report/
-    └── ecommerce_sales_project_summary.pdf
-```
-
-## Dashboard Preview
-
-Add dashboard screenshots here after uploading them to the repository.
-
-```markdown
-### Sales Overview
-![Sales Overview](powerbi/dashboard_screenshots/sales_overview.png)
-
-### Product Performance
-![Product Performance](powerbi/dashboard_screenshots/product_performance.png)
-
-### Customer Analysis
-![Customer Analysis](powerbi/dashboard_screenshots/customer_analysis.png)
-
-### Country and Returns Analysis
-![Country and Returns Analysis](powerbi/dashboard_screenshots/country_returns_analysis.png)
-```
-
 ## How to Use This Project
 
 1. Open the Python notebook in the `notebooks` folder to review the data cleaning process.
