@@ -1,11 +1,17 @@
 # Ecommerce-Sales-Analysis
-Data Analytic project showcasing Analysis including Sales, Product, Customers, Country and Return for a UK-based ecommerce company using Python, SQL and PowerBI
 
 ## Project Overview
 
 This project presents an end-to-end analysis of a UK-based ecommerce transaction dataset using **Python**, **SQL**, and **Power BI**. The goal of the project is to clean and prepare transactional data, analyse business performance using SQL, and build an interactive Power BI dashboard to communicate key insights.
 
 The dataset contains online retail transactions from a UK-based non-store online retail business. The analysis focuses on sales performance, product performance, customer behaviour, country-level revenue, and returns/cancellations.
+
+## Project Workflow
+
+This project follows an end-to-end data analytics workflow, starting from business problem definition and data preparation, then moving into SQL analysis, Power BI dashboard development, and final project documentation.
+
+![Ecommerce Sales Analysis Project Workflow](images/EcomUK_Project_Workflow.png)
+
 
 ## Tools Used
 
